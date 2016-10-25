@@ -15,6 +15,7 @@ namespace MvcEfSample.Controllers
             this.dbContext = dbContext;
         }
         
+        
         [HttpGet]
         public async Task<ActionResult> Index()
         {
